@@ -1,0 +1,113 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(https://t3.ftcdn.net/jpg/01/24/24/36/360_F_124243665_PcCtNNEkkwrLM9VjOdkHECuikMlVnKY2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#header{
+    background-color: rgba(224, 201, 166);
+}
+
+h1{
+    color: brown;
+    font-family: cursive;
+    text-align: center;
+}
+
+.pesquisa{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    flex-wrap: wrap;
+}
+
+.pesquisa .ynfuan{
+    width: 125px;
+    height: 125px;
+    border-radius: 360px;
+}
+
+.pesquisa .botao{
+    background-color: #D2B48C;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.ofertaDia h1{
+    font-size: 15px;
+    margin: 5px;
+}
+
+main .ofertaDia .ofertas div{
+    width: auto;
+    display: inline-block;
+    margin: 20px;
+    padding: 60px;
+    border: solid black;
+    border-radius: 25px;
+}
+
+main .ofertaDia .ofertas img{
+    width: 150px;
+    height: 150px;
+}
+
+main .ofertaDia .ofertas .botwm{
+    border-radius: 10px;
+    background-color: wheat;
+    padding: 5px;
+    cursor: pointer;
+}
+
+/* Aqui começa o css da pagina de mapas */
+
+.caixa {
+    width: 90%;
+    margin: 120px auto 40px auto;
+    background-color: rgba(224, 201, 166);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.25);
+    padding: 20px;
+}
+
+.europ {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.25);
+    width: 360px;
+}
+  
+p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}  
+
+/*Aqui começa o css da scrollbar */
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: rgba(224, 201, 166);
+}
+
+::-webkit-scrollbar-thumb{
+    background: #800000;
+    border-radius: 30px;
+}
